@@ -1,6 +1,6 @@
 # Project information
 
-site_name: CloudEndure Lab
+site_name: AWS Transfer for SFTP Lab
 site_description: 'En este laboratorio usted aprenderá a utilizar la herramienta de CloudEndure llevando a cabo todas las tareas necesarias para la migración de un servidor hacia el entorno de nube de AWS. Para efectos de este laboratorio, usted desplegará un servidor Linux con Apache en una instancia de EC2 ubicada en la región de N. Virigina que simulará ser un servidor que se encuentra en su centro de datos o con algún proveedor de servicios de nube. Dentro de este servidor usted instalará el agente de CloudEndure para llevar a cabo la migración a la región de N. California.'
 #site_author: 'josepenu@amazon.com'
 site_url: 'http://transfer.oldschool.cloud'
@@ -24,7 +24,7 @@ extra:
 nav:
     - Inicio: index.md
     - 1. Creación de bucket de S3: s3bucket.md
-    - 2. Creación de políticas de IAM.: politicaiam.md
+    - 2. Creación de políticas de IAM.: politicasiam.md
     - 3. Creación de rol de IAM: roliam.md
     - 4. Creación del servidor SFTP: sftpserver.md
     - 5. Creación de usuarios del el servidor SFTP: ce-agent.md
@@ -32,8 +32,8 @@ nav:
 theme:
   name: 'material'
   palette:
-    primary: 'Blue grey'
-    accent: 'black'
+    primary: 'Black'
+    accent: 'Indigo'
   logo:
     icon: 'cloud_done'
 markdown_extensions:
