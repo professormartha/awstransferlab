@@ -5,6 +5,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
 3. Haga click en **_Create policy_**.
 4. En la siguiente pantalla haga click en la pestaña de **_JSON_**, borre el contenido existente en el campo y pegue la siguiente política sustituyendo las dos entradas de **_bucket_name_** por el nombre del bucket que acaba de creó en el módulo anterior:
 
+```json
  {
     "Version": "2012-10-17",
     "Statement": [
@@ -33,6 +34,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
         }
     ]
 }
+```
 
 5.	Haga click el botón de **_Review policy_**.
 6.	Ingrese un nombre para la política (**_AWSTransferCustomPolicy_**) en el campo de **_Name_**.
@@ -41,6 +43,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
 9.	Haga click en **_Create policy_**.
 10.	En la siguiente pantalla haga click en la pestaña de **_JSON_**, borre el contenido existente en el campo y pegue la siguiente política:
 
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -78,6 +81,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
        }
   ]
 }
+```
 
 11.	Haga click el botón de **_Review policy_**.
 12.	Ingrese un nombre para la política (**_AWSTransferScopeDownPolicy_**) en el campo de **_Name_**.
