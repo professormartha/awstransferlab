@@ -27,8 +27,8 @@ nav:
     - 2. Creación de políticas de IAM.: politicasiam.md
     - 3. Creación de rol de IAM: roliam.md
     - 4. Creación del servidor SFTP: sftpserver.md
-    - 5. Creación de usuarios del el servidor SFTP: ce-agent.md
-    - 6. Conéctese a su servidor SFTP: launch.md
+    - 5. Creación de usuarios del el servidor SFTP: users.md
+    - 6. Conéctese a su servidor SFTP: connect.md
 theme:
   name: 'material'
   palette:
