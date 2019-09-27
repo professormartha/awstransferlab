@@ -17,7 +17,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
             ],
             "Effect": "Allow",
             "Resource": [
-                "arn:aws:s3:::**_bucket_name_**"
+                "arn:aws:s3:::bucket_name"
             ]
         },
         {
@@ -30,7 +30,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
                 "s3:DeleteObject",
                 "s3:GetObjectVersion"
             ],
-            "Resource": "arn:aws:s3:::**_bucket_name_**/*"
+            "Resource": "arn:aws:s3:::bucket_name/*"
         }
     ]
 }
