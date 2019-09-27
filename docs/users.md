@@ -3,7 +3,7 @@
 3. En el campo de **_Username_** escriba **_user01_**.
 4. En **_Access_** seleccione el rol que creó (**_AWSTransferCustomRole_**) del menú desplegable.
 5. En **_Policy_** seleccione **_Select policy from IAM_** y del menu desplegable seleccione la segunda política que creó (**_AWSTransferScopeDownPolicy_**).
-6. En **_Home directory_** seleccione el bucket que creó (**_transfer-lab-<su-nombre>_**).
+6. En **_Home directory_** seleccione el bucket que creó (**_transfer-lab-su-nombre_**).
 7. En el campo de **_Enter optional folder_** escriba **_user01_** (que es el nombre del usuario que está creando y del folder que creó dentro del bucket de S3).
 8. En el campo de **_SSH public key_** debe ingresar una llave pública generada por usted.  Si usted es usuario de **_Windows_** puede aprender como generar llaves con [**_puttygen_**](https://www.ssh.com/ssh/putty/windows/puttygen). Si usted es usuario de **_Linux/Mac_**, ejecute el siguiente comando en terminal sustituyendo **_key_name_** por el nombre que guste dar a su llave (puede ser el nombre del usuario que está creando):
 
