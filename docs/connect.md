@@ -4,7 +4,7 @@
 
 2. Una vez conectado navegue a través de los directorios y comience a subir archivoss.
 3. Verifique que efectivamente su(s) usuario(s) solamente tiene(n) acceso a su folder.
-4. Regrese al servicio de S3 en la consola de AWS https://s3.console.aws.amazon.com/s3/ .
+4. Regrese al servicio de [**_S3_**](https://s3.console.aws.amazon.com/s3/) en la consola de AWS (**_https://s3.console.aws.amazon.com/s3/_**).
 5. Vaya al bucket que creó inicialmente y verifique como es que los archivos que subió por medio del servidor SFTP se encuentran ahí.
 
 Fin del laboratorio
