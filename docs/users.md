@@ -6,8 +6,7 @@
 5. En **_Policy_** seleccione **_Select policy from IAM_** y del menu desplegable seleccione la segunda política que creó (**_AWSTransferScopeDownPolicy_**).
 6. En **_Home directory_** seleccione el bucket que creó (**_transfer-lab-<su-nombre>_**).
 7. En el campo de **_Enter optional folder_** escriba **_user01_** (que es el nombre del usuario que está creando y del folder que creó dentro del bucket de S3).
-8. En el campo de **_SSH public key_** debe ingresar una llave pública generada por usted.  Si usted es usuario de Windows puede aprender como generar llaves con puttygen siguiendo esta liga
-9. **_https://www.ssh.com/ssh/putty/windows/puttygen_**. Si usted es usuario de Linux/Mac, ejecute el siguiente comando en terminal sustituyendo **_key_name_** por el nombre que guste dar a su llave (puede ser el nombre del usuario que está creando):
+8. En el campo de **_SSH public key_** debe ingresar una llave pública generada por usted.  Si usted es usuario de Windows puede aprender como generar llaves con puttygen siguiendo esta liga **_https://www.ssh.com/ssh/putty/windows/puttygen_**. Si usted es usuario de Linux/Mac, ejecute el siguiente comando en terminal sustituyendo **_key_name_** por el nombre que guste dar a su llave (puede ser el nombre del usuario que está creando):
 
 ```
 ssh-keygen -P "" -f key_name
