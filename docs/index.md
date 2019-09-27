@@ -1,17 +1,11 @@
 # Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+In this lab you will do the following:
 
-## Commands
+- Sign in to the AWS Transfer for SFTP console.
+- Create your first SFTP server.
+- Add a user.
+- Perform a file transfer using an SFTP client.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+[!embed?max_width=1200](https://www.youtube.com/watch?v=yHzFJ1Dq078)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

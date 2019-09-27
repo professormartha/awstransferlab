@@ -1,8 +1,8 @@
-1.	Diríjase de nuevo al servicio de **_IAM_** (https://console.aws.amazon.com/iam/) 
+1.	Diríjase de nuevo al servicio de [**_IAM_**](https://console.aws.amazon.com/iam/) 
 2.	Haga click en **_Roles_** en el menú del lado izquierdo.
 3.	Haga click en **_Create role_**.
 4.	En **_Select type of trusted entity_** asegúrese que esté seleccionado **_AWS service_**.
-5.	En ****Choose the service that will use this role_** seleccione **_Transfer_**.
+5.	En **_Choose the service that will use this role_** seleccione **_Transfer_**.
 
 ![Create S3 bucket](images/createrole.png)
 
