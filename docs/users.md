@@ -10,16 +10,17 @@
 9. **_https://www.ssh.com/ssh/putty/windows/puttygen_**. Si usted es usuario de Linux/Mac, ejecute el siguiente comando en terminal sustituyendo **_key_name_** por el nombre que guste dar a su llave (puede ser el nombre del usuario que está creando):
 
 ```
-ssh-keygen -P "" -f **_key_name_**
+ssh-keygen -P "" -f key_name
 ```
 
-En ambos casos la llave pública se verá como algo así:
+En ambos casos (Windows o Linux/Mac) la llave pública se verá como algo así:
 
 > ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEk7oaoFk947Zaq2lfZbWsLBfW874+hn8ZPFIt+s3Zt
-5tOW72ZocCbuq6KsyzS4AMCSfeKEEVMWaTpm5oZaFbcTJRfDF55DvsV2gezJwH1l5pWMRjqtQ9BeH6V7sxr
-elU66YL4CvollCt23WfIV8rJybfrr7zsPglMVZSGxfhHA88Oi9s3XYqfZx7w4edAkG9+WtiEx3bmPDTt1Fa
-ZlB+L9cUCEBnn3af39RR9EfbKzRAtLQ7W8t3uFlg5wG92fKcVQbl4BOBvOuox+M81tuxhGSonRrO/7pwRYL
-ncYoscF7nT7yaN/7yrJtWFr3jWN7M9tFP8Hg3ZIx1tU5h9kN+v
+5tOW72ZocCbuq6KsyzS4AMCSfeKEEVMWaTpm5oZaFbcTJRfDF55DvsV2gezJwH1l5pWMRjqt
+Q9BeH6V7sxrelU66YL4CvollCt23WfIV8rJybfrr7zsPglMVZSGxfhHA88Oi9s3XYqfZx7w4
+edAkG9+WtiEx3bmPDTt1FaZlB+L9cUCEBnn3af39RR9EfbKzRAtLQ7W8t3uFlg5wG92fKcVQ
+bl4BOBvOuox+M81tuxhGSonRrO/7pwRYLncYoscF7nT7yaN/7yrJtWFr3jWN7M9tFP8Hg3ZI
+x1tU5h9kN+v
 
 Al final, la pantalla de creación de usuario debe verse así:
 
