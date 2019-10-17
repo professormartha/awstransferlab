@@ -6,7 +6,7 @@ A continuación, va a crear dos políticas de IAM. La primera política se va a 
 4. En la siguiente pantalla haga click en la pestaña de **_JSON_**, borre el contenido existente en el campo y pegue la siguiente política sustituyendo las dos entradas de **_bucket_name_** por el nombre del bucket que acaba de creó en el módulo anterior:
 
 ```json
- {
+{
     "Version": "2012-10-17",
     "Statement": [
         {
