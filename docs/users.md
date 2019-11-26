@@ -11,7 +11,7 @@
 ssh-keygen -P "" -f key_name
 ```
 
-9. Ejecute el siguiente comando sustituyendo **_key_name_** por el nombnre que dio a su llave:
+9. Ejecute el siguiente comando sustituyendo **_key_name_** por el nombre que dio a su llave (en el caso de usuarios windows deberá abrir el archivo en un editor de texto):
 
 ```
 cat key_name.pub
