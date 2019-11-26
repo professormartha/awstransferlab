@@ -11,18 +11,24 @@
 ssh-keygen -P "" -f key_name
 ```
 
-Una vez generada, la llave pública se verá como algo así:
+9. Una vez ejecutado el comando anterior ejecute el siguiente comando sustituyendo key_name por el nombnre que dio a su llave:
 
+```
+cat key_name.pub
+```
+Deberá ver algo así
 > ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEk7oaoFk947Zaq2lfZbWsLBfW874+hn8ZPFIt+s3Zt
 5tOW72ZocCbuq6KsyzS4AMCSfeKEEVMWaTpm5oZaFbcTJRfDF55DvsV2gezJwH1l5pWMRjqt
 Q9BeH6V7sxrelU66YL4CvollCt23WfIV8rJybfrr7zsPglMVZSGxfhHA88Oi9s3XYqfZx7w4
 edAkG9+WtiEx3bmPDTt1FaZlB+L9cUCEBnn3af39RR9EfbKzRAtLQ7W8t3uFlg5wG92fKcVQ
 bl4BOBvOuox+M81tuxhGSonRrO/7pwRYLncYoscF7nT7yaN/7yrJtWFr3jWN7M9tFP8Hg3ZI
-x1tU5h9kN+v
+x1tU5h9kN+v user@system.domain
+
+10. Copie todo el resultado del comando anterior desde ssh-rsa hasta el último caracter antes del usuario@ e ingréselo n el campo de **_SSH public key_**.
 
 Al final, la pantalla de creación de usuario debe verse así:
 
 ![Create S3 bucket](images/usercreation.png)
 
-9. Haga click en **_Add_**.
-10. **_Opcional:_** repita los pasos a de este módulo para crear un segundo usuario (**_user02_**).
+11. Haga click en **_Add_**.
+12. **_Opcional:_** repita los pasos a de este módulo para crear un segundo usuario (**_user02_**).
