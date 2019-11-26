@@ -11,7 +11,7 @@
 ssh-keygen -P "" -f key_name
 ```
 
-9. Ejecute el siguiente comando sustituyendo **_key_name_** por el nombre que dio a su llave (en el caso de usuarios windows deberá abrir el archivo en un editor de texto):
+9. Ejecute el siguiente comando sustituyendo **_key_name_** por el nombre que dio a su llave (en el caso de usuarios Windows, deberán abrir el archivo en un editor de texto):
 
 ```
 cat key_name.pub
@@ -25,7 +25,7 @@ edAkG9+WtiEx3bmPDTt1FaZlB+L9cUCEBnn3af39RR9EfbKzRAtLQ7W8t3uFlg5wG92fKcVQ
 bl4BOBvOuox+M81tuxhGSonRrO/7pwRYLncYoscF7nT7yaN/7yrJtWFr3jWN7M9tFP8Hg3ZI
 x1tU5h9kN+v user@system
 
-10. Copie todo el resultado del comando anterior desde **_ssh-rsa_** hasta el último caracter antes de **_user@system_** e ingréselo n el campo de **_SSH public key_**.
+10. Copie todo el resultado del comando anterior desde **_ssh-rsa_** hasta el último caracter antes de **_user@system_** e ingréselo en el campo de **_SSH public key_**.
 
 Al final, la pantalla de creación de usuario debe verse así:
 
