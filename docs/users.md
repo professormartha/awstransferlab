@@ -32,4 +32,4 @@ Al final, la pantalla de creación de usuario debe verse así:
 ![Create S3 bucket](images/usercreation.png)
 
 11. Haga click en **_Add_**.
-12. **_Opcional:_** repita los pasos a de este módulo para crear un segundo usuario (**_user02_**).
+12. **_Opcional:_** repita los pasos de este módulo para crear un segundo usuario (**_user02_**).
