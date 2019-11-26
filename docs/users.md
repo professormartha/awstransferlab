@@ -25,7 +25,7 @@ edAkG9+WtiEx3bmPDTt1FaZlB+L9cUCEBnn3af39RR9EfbKzRAtLQ7W8t3uFlg5wG92fKcVQ
 bl4BOBvOuox+M81tuxhGSonRrO/7pwRYLncYoscF7nT7yaN/7yrJtWFr3jWN7M9tFP8Hg3ZI
 x1tU5h9kN+v user@system
 
-10. Copie todo el resultado del comando anterior desde **_ssh-rsa_** hasta el último caracter antes del **_user@system_** e ingréselo n el campo de **_SSH public key_**.
+10. Copie todo el resultado del comando anterior desde **_ssh-rsa_** hasta el último caracter antes de **_user@system_** e ingréselo n el campo de **_SSH public key_**.
 
 Al final, la pantalla de creación de usuario debe verse así:
 
